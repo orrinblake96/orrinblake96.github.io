@@ -167,6 +167,7 @@ input, select, textarea {
 	}
 
 		a:hover {
+			text-shadow: 0 0 10px rgba(53, 184, 143, 0.25);
 			border-bottom-color: rgba(53, 184, 143, 0);
 		}
 
