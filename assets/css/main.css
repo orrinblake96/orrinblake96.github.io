@@ -29,6 +29,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.mini-project {
+	-webkit-box-shadow: 7px 9px 16px -1px rgba(0,0,0,0.62);
+	-moz-box-shadow: 7px 9px 16px -1px rgba(0,0,0,0.62);
+	box-shadow: 7px 9px 16px -1px rgba(0,0,0,0.62);
+	background-color: #31463F; 
+	border-radius: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	z-index: 1;
+	position: relative;
+}
+
 body {
 	line-height: 1;
 }
@@ -303,6 +315,7 @@ input, select, textarea {
 		}
 
 		.row > .col-3 {
+			margin-top: 80px;
 			width: 25%;
 		}
 
@@ -1468,6 +1481,9 @@ input, select, textarea {
 
 	section, article {
 		margin-bottom: 3em;
+		-webkit-box-shadow: 7px 9px 16px -1px rgba(0,0,0,0.62);
+		-moz-box-shadow: 7px 9px 16px -1px rgba(0,0,0,0.62);
+		box-shadow: 7px 9px 16px -1px rgba(0,0,0,0.62);
 	}
 
 	section > :last-child,
@@ -2453,6 +2469,15 @@ input, select, textarea {
 				letter-spacing: 4px;
 			}
 
+			.mini-project {
+				background-color: #183026; 
+				width: 50%;
+				border-radius: 10px;
+				margin-right: auto;
+				margin-left: auto;
+				padding: 10px;
+			}
+
 		/* List */
 
 			ul li {
@@ -2502,6 +2527,7 @@ input, select, textarea {
 			input[type="reset"],
 			button,
 			.button {
+				
 				padding: 0.75em 0 0.75em 0;
 				width: 100%;
 				max-width: 320px;
